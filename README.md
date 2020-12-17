@@ -6,3 +6,7 @@ Go to the test folder and run
 `npm start`
 Now open a new terminal in the same folder
 `npm test`
+
+Incase of any issues please run,
+`rm -rf /node_modules package-lock.json`
+`npm clean cache --force` before the npm install again and run the same above steps.
