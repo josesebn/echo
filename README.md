@@ -13,4 +13,4 @@ Incase of any issues please run,
 
 To make the API work, 
 Do `npm install` and then `node server.js`. This will start the api server. ( I was able to owkr only singel server single client with api).
-Now you use the query `localhost:1110/echo?message=Hello` The server will send back to browser.
+Now you use the browser to load `localhost:1110/echo?message=Hello` The server will send back to browser Hello. Change the message part and reload the page and see the change reflected in the response.
