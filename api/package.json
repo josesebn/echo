@@ -1,0 +1,27 @@
+{
+  "name": "echoServer",
+  "version": "1.0.0",
+  "description": "Echo Server listening to multiple clients",
+  "scripts": {
+    "start:server": "nodemon server.js",
+    "start:webserver": "node webserver.js",
+    "start:client1": "node client1.js",
+    "start:client2": "node client2.js",
+    "start": "node servertest.js"
+  },
+  "author": "Jose Sebastian",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "net": "1.0.2",
+    "websocket": "1.0.33",
+    "jsonwebtoken": "^8.5.1",
+    "server.js": "^1.0.0",
+    "ws": "^7.2.5"
+  }
+}
